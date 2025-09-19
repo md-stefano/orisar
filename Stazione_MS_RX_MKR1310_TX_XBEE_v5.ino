@@ -68,10 +68,11 @@ void loop() {
     //delay(1000);
     LoRa_txMode();
     LoRa.beginPacket();
-    carattere = "OK";
+    carattere = "0xBB";
     LoRa.write(destination);
     LoRa.endPacket(false);
     carattere = "";
+    LoRa_rxMode();
   }
 }
 
