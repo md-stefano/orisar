@@ -1,7 +1,7 @@
 // Sistema OriSar ideato e realizzato da Stefano Mocci Demartis 2017 - tutti i diritti sono riservati - riproduzione vietata
 // stazione passaggio
 // V4.2 MARZO 2018
-// Stazione Master WEMOS D1 R2 + XBEE Coordinatore in ricezione
+// Stazione BS WEMOS D1 R2 + XBEE Coordinatore in ricezione
 //#include <Printers.h>
 #include <XBee.h>
 
@@ -190,3 +190,4 @@ void loop()
 
   byte block;
 }
+
